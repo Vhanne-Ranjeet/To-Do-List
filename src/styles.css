@@ -1,0 +1,82 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(145, 136, 136);
+  padding: 5%;
+  height: auto;
+  box-shadow: 5px 10px #888888;
+  margin: 5%;
+  font-weight: bold;
+}
+.heading {
+  color: darkcyan;
+  border-bottom: 2px solid darkmagenta;
+}
+.subDiv {
+  padding: 1%;
+  height: auto;
+}
+
+.deletebtn {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.deletebtn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.822);
+  transform: rotate(5deg);
+}
+.editbtn {
+  border: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 25px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.editbtn:hover {
+  cursor: pointer;
+  background-color: rgba(155, 18, 247, 0.897);
+  transform: rotate(5deg);
+}
+.btnupdate {
+  border: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 25px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.btnupdate:hover {
+  cursor: pointer;
+  background-color: rgba(155, 18, 247, 0.897);
+  transform: rotate(5deg);
+}
+.btnadd {
+  border: none;
+  color: white;
+  background-color: rgb(11, 153, 11);
+  padding: 14px 30px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.btnadd:hover {
+  cursor: pointer;
+  background-color: green;
+  transform: rotate(5deg);
+}
+.list {
+  background-color: lightblue;
+  background-position: center;
+  border-radius: 4px;
+}
+.subDiv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
